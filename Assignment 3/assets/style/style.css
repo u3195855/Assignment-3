@@ -1,0 +1,673 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Varela+Round');
+
+body{
+    background-image: url(../image/tocumwal-trove-4-50.jpg);
+    background-color: #fff;
+    background-repeat: no-repeat; 
+    background-position: center top;
+    background-size: contain;
+}
+
+#pg1body{
+    background-repeat: repeat-y;
+}
+
+#pg2body{
+    background-repeat: repeat-y;
+}
+
+header{
+    margin-top: 2%;
+    position: fixed;
+    width: 100%;
+}
+
+main{
+    width: 82%;
+    margin-left: 16%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    border-radius: 30px;
+    padding: 8%;
+    border: #30384C;
+}
+
+a:hover{
+    color:#30384C;
+    background-color: #fff;
+}
+
+a:active{
+    color: #fff;
+    border: #fff solid 1px;
+    background-color: #30384C;
+}
+
+nav{
+    background-color: #30384C;
+    position: fixed;
+    display: block;
+    width: 12%;
+    margin-left:2%;
+    height: 10000px;
+    padding-top:2.5%;
+}
+
+nav ul li{
+    padding: 10%;
+}
+
+footer{
+    background-color: #bc5a45;
+    padding: 2%;
+    padding-bottom: 8%;
+    margin-bottom: 2%;
+    border:black solid 1px;
+}
+
+img{
+    width: 45%;
+    display: inline-block;
+    margin: 2%;
+}
+
+p{
+    line-height: 1.5em;
+    font-size: 18px;
+    text-indent: 1em;
+    font-family: sans-serif;
+    color: #000;
+}
+
+h1{
+    background-color: #f4e1d2;
+    font-weight: bold;
+    font-size: 350%;
+    font-family: 'Architects Daughter', cursive;
+    color: #bc5a45;
+    padding: 2%;
+    padding-left: 5%;
+    width: 100%;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 350%;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    text-decoration: underline;
+    color: #30384C;
+    margin: 5%;
+}
+
+h3{
+    font-size: 150%;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #bc5a45;
+    font-weight: bold;
+}
+
+blockquote{
+    line-height: 1.5em;
+    font-size: 1.5em;
+    text-indent: 1em;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    color: #f18973;
+    font-weight: bold;
+    float: right;
+    width: 30%;
+    padding: 3%;
+    letter-spacing: .1em;
+    margin-top: 5%;
+    margin-right: 7%;
+}
+
+footer a{
+    float: left;
+    margin-left: 16%;
+    padding: 1%;
+    
+}
+
+footer a:hover{
+    color: #BC5A45;
+    background-color: #fff;
+}
+
+footer a:active{
+    color: #fff;
+    border: #fff solid 1px;
+    background-color: #BC5A45;
+    
+}
+
+.quote{    
+    padding-bottom: 5%;  
+    border: black solid 1px;
+}
+
+.quote p{
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Varela Round', sans-serif;
+    color: #555;
+    width: 75%;
+    margin: 12% auto ;
+    padding: 1%;    
+}
+
+.quote a{
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Varela Round', sans-serif;
+    color: #555;
+    padding: 1%;
+    margin: 5% 40%;
+}
+
+.quote a:hover{
+    background-color: #30384C;
+    color: #fff;
+}
+
+.intro{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.intro p{
+    column-count: 2;
+    column-width: 40%;
+}
+
+.intro img{
+    float: right;
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+
+.jumptopages{
+    background-color: #bc5a45;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.jumptopages a{
+    padding: 0%;    
+    font-size: 300%;
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin-top: 1%;
+}
+
+.jumptopages a:hover {
+    padding: 0%;
+    background-color:#BC5A45;
+    color: #30384C;
+}
+
+.jumptopages a:active {
+    padding: 0%;
+    background-color: #BC5A45;
+    border: none;
+}
+
+.archivejump{
+    display: inline-block;
+    width: 49.5%;
+}
+
+.galleryjump{
+    display: inline-block;
+    width: 49.5%;
+}
+
+.news a{    
+    font-size: 300%;
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    background-color: #3D90D1;
+    padding: 2%;
+    width: auto;
+    margin: 5% 37% 0% 37%;
+}
+
+.news a:hover{
+    color: #30384C;
+}
+
+form{
+    float:right;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 1%;
+    line-height: 2em;
+    margin: auto;
+}
+
+input[type=email]{
+    padding: 2%;
+    padding-right: 5%;
+    border-radius: 5px;
+}
+
+input[type=submit]{
+    border: #000;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover{
+    color:#bc5a45;
+    background-color: #f4e1d2;
+} 
+
+.pg1{
+    background-color: rgba(255, 255, 255, .8);
+    margin-top: 2%;
+    padding: 1% 2% 1% 2%;    
+}
+
+.pg1origin{
+    column-count: 2;
+    column-width: 40%;
+}
+
+.pg1moreinfo{
+    line-height: 1.5em;
+    font-size: .8em;
+    font-family: sans-serif;
+    font-style: italic;
+    color: #777;
+    text-align: right;
+    margin-top: 10px;
+    margin-left: 55%;
+    width: 40%;
+}
+
+.pg1airforce p{
+    width: 50%;
+}
+
+.pg1construct p{
+    width: 45%;
+    margin-left: 55%
+}
+
+.pg1construct img{
+    float: left;
+    padding-right: 5%;
+    padding-top:10%;
+}
+
+.pg2{
+    background-color: rgba(255, 255, 255, .8);
+    margin-top: 2%;
+    padding: 1% 2% 1% 2%;
+}
+
+.pg2 a{
+    color: #000;
+    text-decoration: underline;
+    font-family: sans-serif;
+    border-radius: 0;
+    padding: 0; 
+}
+
+.pg2 a:hover{
+    color: #3D90D1;
+}
+
+/*all screen sizes above 1700px get fixed layout centered*/
+@media screen and (min-device-width:1700px){
+    body{
+        background-image: url(../image/tocumwal-trove-4-50big.jpg);
+        background-size: 1700px;
+        background-position: left top;
+        
+/*        centering isn't working       */
+        margin: 0 auto;
+    }
+    
+    main{
+        width:1375px;
+        margin: 0 auto 0 300px;
+        padding-top: 100px;
+    }
+    
+    header{
+        width: 1590px;        
+    }
+    
+    nav{
+        width: 200px;
+        margin-left: 50px;
+    }
+    
+    footer{
+        width: 1590px;
+    }
+    
+    
+    
+}
+
+@media screen and (max-device-width:1368px){
+    .quote a{
+        margin: 0% 37%;
+    }
+}
+
+@media screen and (max-device-width:1308px){
+    .news a{    
+        width: auto;
+        margin: 5% 36% 0% 36%;
+    }  
+}
+
+@media screen and (max-device-width:1207px){
+    nav{
+        width: 100%;
+        height: auto;
+        padding: 0%;
+        margin: .5% 0% 0% 5%;
+    }
+    
+    nav ul li{
+        padding: 1%;
+        display: inline-block;
+        font-size: 200%;
+        width: 30%;
+    }
+    
+    a{
+        border-radius: 30px;
+        padding: 3%;
+        border: #30384C;
+    }
+    
+    main{
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 10%;
+        padding-bottom: 5%;
+    }
+    
+    footer a{
+        float: left;
+        margin-left: 5%;
+        padding: 1%;
+    
+    }
+    
+    .quote a{
+        margin: 0% 38%;
+    }
+    
+    .quote p{
+        margin: 12% auto 5% auto;
+    }
+}
+    
+@media screen and (max-device-width:1104px){
+    h1{
+        font-size: 300%;
+    }
+    
+    .news a{    
+        width: auto;
+        margin: 5% 35% 0% 35%;
+    }
+}
+
+@media screen and (max-device-width:1019px){    
+    .quote p{
+        font-size: 175%;
+        width: 100%;
+        margin: 10% auto 5% auto ;
+        padding: 1%;    
+    }
+
+    .quote a{
+        font-size: 175%;
+        padding: 1%;
+        margin: 5% 38%;
+    }
+    
+    .news a{    
+        width: auto;
+        margin: 5% 34% 0% 34%;
+    }
+}
+
+@media screen and (max-device-width:760px){
+    p{
+        line-height: 1.75em;
+    }
+    
+    .intro p{
+        column-count: 1;
+        column-width: 100%;
+        font-size: 150%;
+    }
+    
+    #origin p{
+        column-count: 1;
+        column-width: 100%;
+        font-size: 150%;
+    }
+    
+    .pg1moreinfo{        
+        text-align: center;
+        margin-left: 0%;
+        width: 90%;
+        margin-bottom: 20%;
+}
+    
+    .pg1airforce p{
+        width: 100%;
+        font-size: 150%;
+
+    }
+    
+    blockquote{
+    line-height: 1.5em;
+    font-size: 1.5em;
+    text-indent: 1em;
+    text-align: center;
+    float: none;
+    width: 90%;
+    padding: 3%;
+    letter-spacing: .1em;
+    margin-top: 5%;
+    margin-right: 7%;
+}
+
+    .pg1construct p{
+        width: 90%;
+        margin-left: 0%;
+        font-size: 150%;
+    }
+    
+    .pg1construct img{
+    float: none;
+    padding-right: 5%;
+    padding-top:10%;
+    width:90%;
+}
+    
+    h1{
+        font-size: 350%;
+    }
+    
+    nav a{
+        font-size: 125%;
+    }
+    
+    .quote{
+        margin-top: 15%;
+    }
+    
+    body{
+        background-image: url(../image/tocumwal-trove-4-50small.jpg);
+    }
+    
+    img{
+        display: block;
+        margin: 5% auto;
+        width: 75%;
+    }
+    
+    .pg2{
+        margin-top: 15%;
+    }
+    
+    .pg1{
+        margin-top: 15%;
+    }   
+}
+
+@media screen and (max-device-width:673px){
+    body{
+        background-image: url(../image/tocumwal-trove-4-50small2.jpg);
+    }
+    
+    .quote a{
+        margin: 5% 35%;
+    }
+    
+    .archivejump{
+        display: block;
+        width: 70%;
+        margin: 0% auto;
+    }
+
+    .galleryjump{
+        display: block;
+        width: 70%;
+        margin: 5% auto 0% auto;
+    }
+
+}
+
+@media screen and (max-device-width:516px){
+    .quote a{
+        margin: 5% 34%;
+    }
+    
+    .archivejump{
+        display: block;
+        width: 100%;
+        margin: 0% auto;
+    }
+
+    .galleryjump{
+        display: block;
+        width: 100%;
+        margin: 5% auto 0% auto;
+    }
+    
+    form{
+        display: none;
+    }
+    
+    footer a{
+        float: none;
+        padding: 2%;
+        text-align: center;
+        font-size: 150%;
+        display: block;
+        justify-content: center; 
+    }
+    
+    nav{
+        width: 40%;
+        margin-left: 60%;
+    }
+    
+    nav a{
+        font-size: 150%;
+    }
+    
+    nav ul li{
+        width: 90%;
+        display: block;
+        padding: 8%;
+        text-align: right;
+    }
+
+    .quote p{
+        text-align: left;
+        font-size: 200%;
+        width: 60%;
+        margin: 0 ;
+        padding: 1%;    
+    }
+
+    .quote a{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-device-width:462px){
+    .news a{    
+        width: auto;
+        margin: 5% 32% 0% 32%;
+    }
+}
+
+@media screen and (max-device-width:400px){
+    body{
+        background-image: url(../image/tocumwal-trove-4-50small2.jpg);
+    }
+
+}
+
+@media screen and (max-device-width:320px){
+    body{
+        background-image: url(../image/tocumwal-trove-4-50small4.jpg);
+    }
+    
+    .quote p{
+        font-size: 250%;
+    }
+
+}
+
+@media screen and (max-device-width:264px){
+    body{
+        background-image: url(../image/tocumwal-trove-4-50small4.jpg);
+    }
+
+}
+    
+@media screen and (max-device-width:224px){
+    body{
+        background-image: url(../image/tocumwal-trove-4-50small5.jpg);
+    }
+
+}   
+    
+    
+    
+    
+    
+    
+    
